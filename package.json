@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-iter-entries",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create an iterator which returns [index, value] pairs for each element in a provided ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-copy-indexed": "^0.1.0",
     "@stdlib/array-base-zeros": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-is-ndarray-like": "^0.1.0",
     "@stdlib/assert-is-plain-object": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-order": "^0.1.1",
-    "@stdlib/ndarray-base-next-cartesian-index": "github:stdlib-js/ndarray-base-next-cartesian-index#main",
+    "@stdlib/ndarray-base-next-cartesian-index": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
+    "@stdlib/ndarray-shape": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/symbol-iterator": "^0.1.0",
+    "@stdlib/symbol-iterator": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
